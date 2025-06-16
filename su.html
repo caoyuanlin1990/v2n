@@ -1,35 +1,30 @@
-import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-
-const BlogPost = ({ number }) => {
-  const mouths = number;
-  const eyes = number * 2;
-  const legs = number * 4;
-
-  return (
-    <Card className="mb-4">
-      <CardContent>
-        <h2 className="text-xl font-bold mb-2">{number} 只青蛙</h2>
-        <p>张嘴：{mouths} 张</p>
-        <p>眼睛：{eyes} 只</p>
-        <p>脚：{legs} 只</p>
-      </CardContent>
-    </Card>
-  );
-};
-
-const Blog = () => {
-  const frogCounts = Array.from({ length: 100 }, (_, i) => i + 1);
-
-  return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-6">数青蛙到 100 只</h1>
-      {frogCounts.map((count) => (
-        <BlogPost key={count} number={count} />
-      ))}
-    </div>
-  );
-};
-
-export default Blog;
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>数青蛙到100只</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background-color: #f7fafc;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
