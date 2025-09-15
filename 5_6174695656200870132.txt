@@ -10,3 +10,4 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@45.159.218.165:443?security=tls&alp
 vless://401374e6-df77-41fb-f638-dad8184f175b@94.140.0.141:443?security=tls&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#%F0%9F%87%A6%F0%9F%87%AA%20%E9%98%BF%E8%81%94%E9%85%8B
 vless://401374e6-df77-41fb-f638-dad8184f175b@92.53.188.36:443?security=tls&encryption=none&type=grpc&sni=pqh23v4.hiddendom.shop#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20
 vless://401374e6-df77-41fb-f638-dad8184f175b@103.133.1.227:443?security=tls&encryption=none&type=grpc&sni=pqh24v3.hiddendom.shop#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20
+hysteria2://yu19941217@udp.ap-northeast-1.clawcloudrun.com:35965?security=tls&insecure=1#%E6%97%A5%E6%9C%AC%20caoyuanlin
