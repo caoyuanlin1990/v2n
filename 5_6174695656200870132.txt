@@ -1,3 +1,4 @@
 vless://44aded6c-a012-452b-8e13-04d5f15a659f@89.44.242.222:46822?security=&encryption=none&headerType=none&type=tcp#N%2FA%20-%20inbound-46822
 vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=&encryption=none&headerType=none&type=tcp#N%2FA%20-%20Mahdi
 hysteria2://ru19990921@udp.ap-northeast-1.clawcloudrun.com:35965?security=tls&insecure=1#%E6%97%A5%E6%9C%AC%20caoyuanlin
+hysteria2://ru19990921@udp.cloud.sealos.io:30115?security=tls&insecure=1#%E6%96%B0%E5%8A%A0%E5%9D%A1%20caoyuanlin
