@@ -1,2 +1,1 @@
 hysteria2://ru19990921@udp.ap-northeast-1.clawcloudrun.com:35965?security=tls&insecure=1#JP%20%E7%88%AA%E8%9B%99%E4%BA%91
-hysteria2://vHQ08GltSoddM8QCVpDTZpC5edQ@mass.bigjj.ggff.net:51289?security=tls&insecure=0&sni=mass.bigjj.ggff.net#GB%20Hy2
